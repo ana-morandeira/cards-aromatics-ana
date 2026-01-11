@@ -18,6 +18,27 @@ function App() {
         imagen="jazmin"
         descripcion="El jazmín es una planta aromática muy utilizada en perfumería."
       />
+
+      <Aromatics
+        nombre="Iberis"
+        latin="Iberis sempervirens"
+        imagen="iberis"
+        descripcion="El iberis es conocido por su fragancia dulce y delicada."
+      />
+      
+      <Aromatics
+        nombre="Flor de la pasión"
+        latin="Passiflora"
+        imagen="pasionaria" 
+        descripcion="La flor de la pasión es famosa por su aroma relajante y sus propiedades medicinales."
+      />  
+      <Aromatics
+      nombre="Madreselva"
+      latin="Lonicera"
+      imagen="madreselva"
+      descripcion="La madreselva es apreciada por su fragancia intensa y dulce."
+    />
+        
     </div>
   );
 }
