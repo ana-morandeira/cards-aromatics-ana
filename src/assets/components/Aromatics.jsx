@@ -5,7 +5,7 @@ const imagenes = import.meta.glob("../img/*.png", {
   import: "default",
 });
 
-function Aromatics({ nombre, latin, imagen, descripcion }) {
+function Aromatics({ nombre, latin, imagen, descripcion, cuidados }) {
   const imagenSrc = imagenes[`../img/${imagen}.png`];
 
   return (
@@ -24,6 +24,10 @@ function Aromatics({ nombre, latin, imagen, descripcion }) {
           <em>{latin}</em>
         </p>
         <p className="aromatic-description">{descripcion}</p>
+        <p className="aromatic-care">
+         <strong>Cuidados:</strong> {cuidados}
+</p>
+
       </div>
     </div>
   );

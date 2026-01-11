@@ -46,6 +46,15 @@
   line-height: 1.4;
 }
 
+.aromatic-care {
+  font-size: 0.9rem;
+  color: #355f4b;
+  background-color: #f0f7f3;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+
 /* --- Responsive --- */
 @media (min-width: 768px) {
   .aromatic-card {
