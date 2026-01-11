@@ -1,3 +1,6 @@
+import "../styles/Aromatics.css"
+
+
 const imagenes = import.meta.glob("../img/*.png", {
   eager: true,
   import: "default",
