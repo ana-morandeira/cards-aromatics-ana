@@ -1,9 +1,15 @@
+import Navbar from './assets/components/Navbar';
 import Aromatics from "./assets/components/Aromatics";
+import Footer from './assets/components/Footer';
 import "./App.css";
 
 function App() {
   return (
+     <>
+     <Navbar />
+
     <div className="app-container">
+     
       <h1>Top 5 de flores aromáticas</h1>
 
       <Aromatics
@@ -45,6 +51,8 @@ function App() {
         cuidados="La madreselva prospera en suelos bien drenados y con exposición a pleno sol o sombra parcial."
       />
     </div>
+    <Footer />
+    </>
   );
 }
 
