@@ -8,12 +8,14 @@ function App() {
       <Aromatics
         nombre="Orquídea"
         latin="Orchidaceae"
+        imagen="orquidea"
         descripcion="Las orquídeas son plantas florales de gran elegancia."
       />
 
       <Aromatics
         nombre="Jazmín"
         latin="Jasminum"
+        imagen="jazmin"
         descripcion="El jazmín es una planta aromática muy utilizada en perfumería."
       />
     </div>
