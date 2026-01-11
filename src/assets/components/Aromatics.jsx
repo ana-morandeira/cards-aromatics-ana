@@ -7,7 +7,7 @@ function Aromatics(props) {
   const imagen = imagenes[`../img/${props.imagen}.png`];
 
   return (
-    <div>
+    <div className="aromatics-card">
       {imagen && (
         <img
           src={imagen}
@@ -15,10 +15,11 @@ function Aromatics(props) {
           width="200"
         />
       )}
-
+<div className="aromatics-info">
       <h2>{props.nombre}</h2>
       <p><em>{props.latin}</em></p>
       <p>{props.descripcion}</p>
+    </div>
     </div>
   );
 }
