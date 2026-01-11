@@ -1,17 +1,93 @@
-# React + Vite
+# 🌿 Plantas Aromáticas – React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación sencilla desarrollada con **React** que muestra una selección de **flores aromáticas** mediante tarjetas informativas.  
+Forma parte de una práctica para aprender la estructura básica de un proyecto React, el uso de componentes y el diseño responsive con CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## React Compiler
+- Visualización de tarjetas con información sobre plantas aromáticas
+- Cada tarjeta incluye:
+  - Imagen
+  - Nombre común
+  - Nombre en latín
+  - Descripción
+  - Cuidados básicos
+- Diseño responsive (adaptado a móvil, tablet y escritorio)
+- Componentes reutilizables:
+  - Navbar
+  - Tarjetas de plantas
+  - Footer
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# cards-aromatics-ana
+- **React**
+- **Vite**
+- **JavaScript (JSX)**
+- **CSS**
+- **HTML**
+
+---
+
+## 📂 Estructura del proyecto
+
+src/
+├─ assets/
+│ ├─ components/
+│ │ ├─ Aromatics.jsx
+│ │ ├─ Navbar.jsx
+│ │ └─ Footer.jsx
+│ ├─ img/
+│ └─ styles/
+│ ├─ Aromatics.css
+│ ├─ Navbar.css
+│ └─ Footer.css
+├─ App.jsx
+├─ App.css
+├─ index.css
+└─ main.jsx
+
+
+---
+
+## 📱 Diseño Responsive
+
+El proyecto sigue un enfoque **mobile-first**:
+
+- En pantallas pequeñas:
+  - Imagen arriba
+  - Texto debajo
+- En pantallas grandes:
+  - Imagen a la izquierda
+  - Texto a la derecha
+
+El diseño se adapta automáticamente mediante **media queries** y `flexbox`.
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+   ```bash
+   git clone <url-del-repositorio>
+
+Instalar dependencias:
+
+npm install
+
+
+Ejecutar en local:
+
+npm run dev
+
+
+Abrir en el navegador:
+
+http://localhost:5173
+
+✨ Autoría
+
+Proyecto realizado por Ana como práctica de aprendizaje en React.
