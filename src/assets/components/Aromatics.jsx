@@ -1,28 +1,30 @@
-import "../styles/Aromatics.css"
-
+import "../styles/Aromatics.css";
 
 const imagenes = import.meta.glob("../img/*.png", {
   eager: true,
   import: "default",
 });
 
-function Aromatics(props) {
-  const imagen = imagenes[`../img/${props.imagen}.png`];
+function Aromatics({ nombre, latin, imagen, descripcion }) {
+  const imagenSrc = imagenes[`../img/${imagen}.png`];
 
   return (
-    <div className="aromatics-card">
-      {imagen && (
+    <div className="aromatic-card">
+      {imagenSrc && (
         <img
-          src={imagen}
-          alt={`Foto de ${props.nombre}`}
-          width="200"
+          className="aromatic-image"
+          src={imagenSrc}
+          alt={`Foto de ${nombre}`}
         />
       )}
-<div className="aromatics-info">
-      <h2>{props.nombre}</h2>
-      <p><em>{props.latin}</em></p>
-      <p>{props.descripcion}</p>
-    </div>
+
+      <div className="aromatic-info">
+        <h2>{nombre}</h2>
+        <p className="aromatic-latin">
+          <em>{latin}</em>
+        </p>
+        <p className="aromatic-description">{descripcion}</p>
+      </div>
     </div>
   );
 }

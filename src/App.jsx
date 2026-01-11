@@ -1,14 +1,14 @@
 import Aromatics from "./assets/components/Aromatics";
-
+import"./App.css"
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <h1>Top 5 de flores aromáticas</h1>
 
       <Aromatics
         nombre="Orquídea"
         latin="Orchidaceae"
-        imagen="orquidea"
+      imagen="orquidea"
         descripcion="Las orquídeas son plantas florales de gran elegancia."
       />
 
@@ -21,7 +21,7 @@ function App() {
 
       <Aromatics
         nombre="Iberis"
-        latin="Iberis sempervirens"
+      tin="Iberis sempervirens"
         imagen="iberis"
         descripcion="El iberis es conocido por su fragancia dulce y delicada."
       />
