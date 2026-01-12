@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1 className="navbar-title">Aromatic Plants</h1>
+      <h1 className="navbar-title">Plantas Aromáticas</h1>
     </nav>
   );
 }
