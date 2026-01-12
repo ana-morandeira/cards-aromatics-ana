@@ -74,20 +74,20 @@ El diseño se adapta automáticamente mediante **media queries** y `flexbox`.
    ```bash
    git clone <url-del-repositorio>
 
-Instalar dependencias:
+2.Instalar dependencias:
 
 npm install
 
 
-Ejecutar en local:
+3.Ejecutar en local:
 
 npm run dev
 
 
-Abrir en el navegador:
+4.Abrir en el navegador:
 
 http://localhost:5173
 
 ✨ Autoría
 
-Proyecto realizado por Ana como práctica de aprendizaje en React.
+Proyecto realizado por Ana Morandeira como práctica de aprendizaje en React.
