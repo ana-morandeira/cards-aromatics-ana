@@ -4,9 +4,8 @@
   margin: 0 auto;
   padding: 1.5rem 1rem;
 
-  /* Anula el centrado del body flex */
   align-self: flex-start;
-  background-color: #e6f2ea; /* verde claro suave */
+  background-color: #e6f2ea; 
    color: #1f3d2b; 
   border-radius: 16px;
 }

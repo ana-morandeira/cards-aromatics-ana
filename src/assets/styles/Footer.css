@@ -1,9 +1,9 @@
 .footer {
-  background-color: #1b3022; /* El verde oscuro que usas en el header */
+  background-color: #1b3022; 
   color: white;
   padding: 20px 0;
   text-align: center;
-  margin-top: 40px; /* Separación de las cards */
+  margin-top: 40px; 
 }
 
 .footer-links a {
