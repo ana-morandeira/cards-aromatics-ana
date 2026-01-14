@@ -1,6 +1,6 @@
-import Navbar from './assets/components/Navbar';
-import Aromatics from "./assets/components/Aromatics";
-import Footer from './assets/components/Footer';
+import Navbar from './assets/components/navbar/Navbar';
+import Aromatics from "./assets/components/aromatics/Aromatics";
+import Footer from './assets/components/footer/Footer';
 import "./App.css";
 
 function App() {
